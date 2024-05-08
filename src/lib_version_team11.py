@@ -14,7 +14,3 @@ class VersionUtil:
         """ Prints the current library version. """
         version = VersionUtil.get_version()
         print(f"Current library version: {version}")
-
-# Example usage:
-if __name__ == "__main__":
-    VersionUtil.print_version()
