@@ -5,7 +5,7 @@ class VersionUtil:
     def get_version():
         """ Returns the current version of the library. """
         try:
-            return version('lib-version')
+            return version('lib-version-team11')
         except PackageNotFoundError:
             return "unknown"
 
